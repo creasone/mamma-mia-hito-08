@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Pizza española</title>
+  <desc id="desc">Ilustración de pizza de cuatro quesos.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#4b2418"/><stop offset="1" stop-color="#c26428"/></linearGradient>
+    <radialGradient id="dough"><stop stop-color="#f4cb79"/><stop offset=".78" stop-color="#dc8731"/><stop offset="1" stop-color="#8c421f"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".38"/></filter>
+  </defs>
+  <rect width="900" height="560" fill="url(#bg)"/>
+  <circle cx="760" cy="80" r="135" fill="#f6af3d" opacity=".13"/>
+  <g transform="translate(442 290) rotate(7)" filter="url(#shadow)">
+    <circle r="240" fill="url(#dough)"/>
+    <circle r="198" fill="#c7472d"/>
+    <path d="M-174-62C-112-189 52-190 155-80C236 7 146 164 10 188C-111 209-220 65-174-62Z" fill="#f5d779"/>
+    <g fill="#fff0bd"><circle cx="-91" cy="-99" r="45"/><circle cx="75" cy="-115" r="37"/><circle cx="121" cy="43" r="49"/><circle cx="-47" cy="104" r="43"/></g>
+    <g fill="#d8a32d" opacity=".85"><circle cx="10" cy="-31" r="27"/><circle cx="-127" cy="34" r="25"/><circle cx="67" cy="105" r="23"/></g>
+    <g fill="#5c8c3c"><path d="M-19-142c39-19 59 2 29 35-30 13-50-6-29-35Z"/><path d="M-112 74c35-22 56-2 31 31-29 15-50-1-31-31Z"/></g>
+  </g>
+  <text x="42" y="68" fill="#fff7eb" font-family="system-ui,sans-serif" font-size="28" font-weight="700">ESPAÑOLA</text>
+</svg>

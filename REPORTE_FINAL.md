@@ -2,7 +2,18 @@
 
 ## Estado
 
-Implementación funcional completada y validada localmente. La publicación y sus enlaces se registrarán después de verificar GitHub y GitHub Pages.
+Implementación funcional completada, validada localmente y publicada. Los seis repositorios son públicos, sus workflows finalizaron correctamente y las seis aplicaciones respondieron HTTP 200 en GitHub Pages.
+
+## Publicación verificada
+
+| Hito | Repositorio público | GitHub Pages |
+| --- | --- | --- |
+| 3 | https://github.com/creasone/mamma-mia-hito-03 | https://creasone.github.io/mamma-mia-hito-03/ |
+| 4 | https://github.com/creasone/mamma-mia-hito-04 | https://creasone.github.io/mamma-mia-hito-04/ |
+| 5 | https://github.com/creasone/mamma-mia-hito-05 | https://creasone.github.io/mamma-mia-hito-05/ |
+| 6 | https://github.com/creasone/mamma-mia-hito-06 | https://creasone.github.io/mamma-mia-hito-06/ |
+| 7 | https://github.com/creasone/mamma-mia-hito-07 | https://creasone.github.io/mamma-mia-hito-07/ |
+| 8 | https://github.com/creasone/mamma-mia-hito-08 | https://creasone.github.io/mamma-mia-hito-08/ |
 
 ## Evaluación de la rúbrica
 
@@ -22,6 +33,8 @@ Implementación funcional completada y validada localmente. La publicación y su
 
 - `pnpm install --frozen-lockfile`: correcto.
 - `pnpm build`: correcto, 38 módulos transformados.
+- GitHub Actions: seis despliegues completados con estado `success`.
+- GitHub Pages: seis URL comprobadas con respuesta HTTP 200 y título «Pizzería Mamma Mía».
 - Registro real de un usuario de prueba contra el backend: correcto.
 - `GET /api/auth/me`: el perfil mostró el email autenticado.
 - `POST /api/checkouts`: correcto; se mostró exactamente «¡Compra realizada con éxito!».
